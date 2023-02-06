@@ -1,7 +1,6 @@
 import { styled } from "..";
 
 export const HomeContainer = styled('main', {
-  gap:'3rem',
   display:'flex',
   
   width:'100%',
@@ -11,13 +10,13 @@ export const HomeContainer = styled('main', {
 });
 
 export const Product = styled('a',{
-  padding:'0.25rem',
+  minWidth:540,
   position:'relative',
 
   display:'flex',
   alignItems:'center',
   justifyContent: 'center',
-  
+
   borderRadius:8,
   cursor:'pointer',
   overflow:'hidden',
